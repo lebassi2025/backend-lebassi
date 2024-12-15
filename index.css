@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -32,3 +33,39 @@
     <script src="script.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Rutas y Contactos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Rutas y Contactos</h1>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Iniciar Sesión</h2>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Usuario" required>
+                <input type="password" id="password" placeholder="Contraseña" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </section>
+
+        <section id="dashboard" style="display: none;">
+            <h2>Bienvenido</h2>
+            <button id="logout">Cerrar Sesión</button>
+            <div id="routes">
+                <h3>Rutas del Día</h3>
+                <ul id="routeList"></ul>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+>>>>>>> 1652b330de7f87ef326ebad5813e8d422e50f7ac
